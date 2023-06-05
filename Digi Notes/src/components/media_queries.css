@@ -1,0 +1,15 @@
+/* Media query for width between 480px and 776px */
+@media screen and (min-width: 480px) and (max-width: 776px) {
+    .myMargin{
+        width: 60%;
+        margin: auto;
+    }
+  }
+  
+  /* Media query for width higher than 776px */
+  @media screen and (min-width: 777px) {
+    .myMargin{
+        width: 45%;
+        margin: auto;
+    }
+  }
